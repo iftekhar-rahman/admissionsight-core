@@ -1,0 +1,63 @@
+
+.blog-carousel .swiper-wrapper .swiper-slide {
+    padding: 0 !important;
+}
+.blog-carousel .post-thumb {
+    height: 240px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-color: #ddd;
+    border-radius: 5px 5px 0 0;
+}
+.blog-carousel .admission-icon img {
+    max-width: 16px;
+    margin-right: 6px;
+}
+.blog-carousel .admission-icon {
+    background-color: #000;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    position: absolute;
+    right: 25px;
+    top: 217px;
+    padding: 8px 15px;
+    display: flex;
+    align-items: center;
+}
+.blog-carousel .post-content h2 {
+    font-size: 22px;
+    color: #25312D;
+    font-weight: 500;
+    font-family: "Georgia", sans-serif;
+    margin: 0 0 12px;
+}
+.blog-carousel .post-content {
+    font-size: 17px;
+    color: #414141;
+    font-family: "Georgia", sans-serif;
+    font-weight: 400;
+    padding: 28px 20px 20px;
+    min-height: 278px;
+    line-height: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.blog-carousel .blog-meta {
+    font-size: 16px;
+    font-weight: 500;
+    border-top: 1px solid #dcdcdc;
+    padding-top: 10px;
+    margin-top: 25px;
+}
+.blog-carousel .single-blog-item {
+    box-shadow: 0 0 10px #ddd;
+    border-radius: 6px;
+    border: 1px solid #e3e2e2;
+    padding: 0 !important;
+}
+.blog-carousel .blog-meta p {
+    margin: 0;
+}

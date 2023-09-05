@@ -1,0 +1,134 @@
+
+.d-block{
+    display: block;
+}
+.blog-thumb {
+    height: 240px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    /* border-radius: 6px 0 0 6px; */
+}
+.ricci-blog-section {
+    font-size: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    line-height: 24px;
+    font-weight: 400;
+    color: #040415;
+}
+.ricci-blog-section .single-item{
+    background-color: #F4F4F3;
+    /* border-radius: 6px; */
+    background: #FFFFFF;
+    margin-bottom: 20px;
+}
+.ricci-blog-section .blog-content {
+    padding: 15px 0px 0px 0px;
+    background-color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.6rem;
+}
+.blog-meta {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    font-weight: 400;
+    color: #64646E;
+    margin-bottom: 10px;
+}
+.ricci-blog-section h2 {
+    font-size: 22px;
+    line-height: 1.3em;
+    margin: 0 0 15px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    font-weight: 700;
+    color: #333;
+}
+.ricci-blog-section h2, .ricci-blog-section h2 a{
+    color: #333;
+}
+.ricci-blog-section .redmore{
+    color: #ffffff;
+    font-family: "Roboto";
+    background: #ED8804;
+    padding: 8px 20px;
+    display: inline-block;
+    border-radius: 3px;
+    font-weight: 500;
+}
+.ricci-blog-section .redmore:hover, .ricci-blog-section h2:hover{
+    opacity: .7;
+}
+.blog-thumb-wrap{
+    overflow: hidden; 
+    flex-basis: 50%;
+    border: 1px solid #ccc;
+}
+.blog-thumb-wrap .blog-thumb{
+    transition: all .5s ease;  
+   
+}
+.blog-thumb-wrap:hover .blog-thumb{
+    transform: scale(1.1);  
+}
+
+
+/* Blog Span CSS */
+.ricci-blog-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+}
+
+
+/* page-nav-container  */
+.page-nav-container {
+    text-align: center;
+    margin-top: 70px;
+}
+.page-nav-container a, .page-nav-container span {
+    border: 1px solid #040415;
+    background: transparent;
+    color: #040415;
+    border-radius: 3px;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 500;
+    display: inline-block;
+    padding: 7px 19px;
+    margin: 4px 2px;
+}
+.page-nav-container a:hover {
+    background-color: #ED8804;
+    color: #fff;
+    border-color: #ED8804;
+    
+}
+.page-nav-container span.current {
+    background-color: #ED8804;
+    color: #ffffff;
+    border-color: #ED8804;
+}
+
+
+/* Responsive CSS */
+@media  (max-width:1024px) {
+
+    .ricci-blog-section {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+}
+
+/* max-width:575px */
+@media (max-width:575px) {
+    .ricci-blog-section {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .page-nav-container a, .page-nav-container span{
+        padding: 4px 13px;
+    }
+
+    
+}
